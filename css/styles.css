@@ -80,7 +80,7 @@ ul{
 .main-top-btn {
     font-family: inherit;
     background-color: #4D5AE5;
-    color: #ffffff
+    color: #ffffff;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -127,15 +127,12 @@ ul{
     text-align: center;
 }
 
-.team-title{
-    background-color: #FFFFFF;
-}
-
 .team-img {
     width="264"
 }
 
 .team-subtitle {
+    background-color: #FFFFFF;
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
@@ -144,6 +141,7 @@ ul{
 }
 
 .team-text {
+    background-color: #FFFFFF;
     color: #434455;
     font-size: 16px;
     font-weight: 400;
