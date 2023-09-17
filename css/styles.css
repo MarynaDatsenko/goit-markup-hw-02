@@ -51,7 +51,7 @@ ul{
     font-style: normal;
 }
 
-.address-link-mailto {
+.address-link-contacts {
     color: #434455;
     font-size: 16px;
     font-weight: 400;
@@ -59,21 +59,8 @@ ul{
     letter-spacing: 0.02em;
 }
 
-.address-link-tel {
-    color: #434455;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
-.address-link-mailto:hover,
-.address-link-mailto:focus{
-    color: #404bbf;
-}
-
-.address-link-tel:hover,
-.address-link-tel:focus{
+.address-link-contacts:hover,
+.address-link-contacts:focus{
     color: #404bbf;
 }
 
@@ -93,6 +80,7 @@ ul{
 .main-top-btn {
     font-family: inherit;
     background-color: #4D5AE5;
+    color: #ffffff
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -126,7 +114,7 @@ ul{
 }
 
 .team {
-    background-color: #FFFFFF;
+    background-color: #F4F4FD;
 }
 
 .team-title{
@@ -137,6 +125,10 @@ ul{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
+}
+
+.team-title{
+    background-color: #FFFFFF;
 }
 
 .team-img {
