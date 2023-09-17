@@ -1,5 +1,4 @@
 body{
-    font-family: "Raleway", sans-serif;
     font-family: "Roboto", sans-serif;
     font-style: normal;
     color: #434455;
@@ -16,11 +15,11 @@ ul{
 
 .header-logo {
     color: #4D5AE5;
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
-    letter-spacing: -0.03em;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
@@ -33,7 +32,7 @@ ul{
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.02em;
 }
 
 .header-menu-link {
@@ -74,7 +73,7 @@ ul{
 }
 
 .address-link-tel:hover,
-.address-link-tel:focus {
+.address-link-tel:focus{
     color: #404bbf;
 }
 
@@ -87,35 +86,28 @@ ul{
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
-    letter-spacing: 0.02em;
+    text-align: center;
+    letter-spacing: 0.02em;  
 }
 
 .main-top-btn {
     font-family: inherit;
-    color: #FFF;
-    font-family: Roboto;
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.main-top-btn:hover,
+.main-top-btn:focus{
+    background-color: #404BBF;
 }
 
 .solutions {
     background: #FFF;
-}
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
 }
 
 .solutions-subtitle {
@@ -134,7 +126,7 @@ ul{
 }
 
 .team {
-    background: #F4F4FD;
+    background-color: #FFFFFF;
 }
 
 .team-title{
@@ -144,6 +136,7 @@ ul{
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center;
 }
 
 .team-img {
@@ -177,6 +170,7 @@ ul{
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center;
 }
 
 .portfolio-img {
@@ -205,10 +199,10 @@ ul{
 
 .footer-logo {
     color: #4D5AE5;
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -217,7 +211,7 @@ ul{
     color: #F4F4FD;
 }
 
-.Studio-text {
+.studio-text {
     color: #F4F4FD;
     font-size: 16px;
     font-weight: 400;
